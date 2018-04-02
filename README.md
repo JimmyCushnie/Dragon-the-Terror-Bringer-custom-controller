@@ -1,6 +1,6 @@
 # Dragon the Terror Bringer custom controller
 
-This is the code I wrote to run the dragon AI in my april fools 2018 joke [The Ultimate Nerd Game 2](https://www.youtube.com/watch?v=AcUf52K_U18). It controls the dragon from the excellent [Dragon the Terror Bringer](https://www.assetstore.unity3d.com/en/#!/content/77121) free asset.
+This is the code I wrote to run the dragon AI in my april fools 2018 joke [The Ultimate Nerd Game 2](https://www.youtube.com/watch?v=AcUf52K_U18). It controls the dragon from the excellent [Dragon the Terror Bringer](https://www.assetstore.unity3d.com/en/#!/content/77121) free Unity asset.
 
 Please note that I wrote this whole thing in like an hour and didn't refactor it at all. It is really, really, really, really bad code and I'm sorry. But if you just want to get some dragons up and flying around then maybe it'll be useful to you.
 
@@ -8,7 +8,7 @@ Please note that I wrote this whole thing in like an hour and didn't refactor it
 
 Add to your scene one of the dragon prefabs from the asset. Then, add the DragonController component from this repo to it; it should be attached to the same GameObject as a playerControl component from the asset.
 
-You'll now have to set the properties of the dragon's behavior in the inspector. Here's what I'm using in TUNG 2:
+You'll now have to set the properties of the dragon's behavior in the inspector. Here's what I'm using for most of the dragons in TUNG 2:
 
 | Property                           | Recommended Value |
 |------------------------------------|-------------------|
